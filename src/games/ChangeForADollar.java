@@ -26,6 +26,7 @@ public class ChangeForADollar {
 
         if(result == 1){
             System.out.println("Yay! That's exactly $1.00! You win!");
+            //test
         }
         else if(result < 1){
             System.out.println("Sorry, you're " + (1-result) + " short of a dollar.");
